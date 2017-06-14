@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-boot-cli-2.0.0.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://C:/spring-2.0.0.BUILD-SNAPSHOT/lib/spring-boot-cli-2.0.0.BUILD-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

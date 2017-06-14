@@ -2,8 +2,10 @@ group 'Timer3Group'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
 
-//sourceCompatibility = 1.5
+//sourceCompatibility = 1.8
+//targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -19,9 +21,10 @@ jar {
     version = '0.1.0'
 }
 
-
 test {
     testLogging {
         events 'started', 'passed'
     }
 }
+
+mainClassName = 'HelloBrowser'
